@@ -703,6 +703,7 @@ ul.events-child-ul {
   width: 6.1rem;
   left: -7rem;
   height: 70px;
+  line-height: 70px;
   text-align: center;
   top: -3px;
   bottom: -3px;
@@ -712,7 +713,7 @@ ul.events-child-ul {
 }
 span.day {
   display: block;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 /*  pastor about us*/
