@@ -308,7 +308,7 @@ i {
   h1 {
       color: #ccc;
       weight: 300; }
-    #pastor,#gallery,#ministries,#events {
+    #pastor,#gallery,#ministries,#events,#donate {
       padding: 50px 0 25px 0;
     }
     
@@ -830,4 +830,14 @@ span.day {
 #back2Top:hover {
   background-color: transparent;
   color: #000;
+}
+.zion-img{
+  height: 500px;
+  width:450px;
+}
+.zion-img-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 0px;
 }
