@@ -144,6 +144,8 @@ i {
       margin: 1.2em 0 0 2.2em;
       font-weight: bolder;
       color: #283036;
+      width: 70px;
+      height: 70px;
 }
 
 .nav {
