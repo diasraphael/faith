@@ -319,13 +319,11 @@ i {
     
     .content {
       position: relative;
-      margin-bottom: 450px;
-      overflow: hidden; }
-      .content  {
-        margin: 0 auto;
-        width: 640px;
-        text-align: center; }
-    
+      overflow: hidden;
+      width: 60%;
+      margin: 0 auto;
+      text-align: center;
+    }
     img {
       max-width: 100%; }
   
@@ -530,26 +528,9 @@ i {
   overflow: hidden;
   transform : translate(-50%,-50%); 
 }
-
 /* video container*/
 .faith-links,.faith-links:hover{
-
   color: #414B54;
-}
-.video-container {
-  position: relative;
-  height: 550px;
-  margin-top: 120px;
-}
-.video-overlay {
-  /*background-color: #4054b2;*/
-    opacity: 0.8;
-    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    position: absolute;
 }
 .video-text-container {
   padding: 0% 15% 0% 0%;
@@ -578,6 +559,7 @@ i {
   height: 600px;
   background-size: cover;
   opacity: .75;
+  margin: 100px 0;
 }
 .versus-content{
   text-align: center;
@@ -842,4 +824,48 @@ span.day {
   flex-direction: row;
   justify-content: center;
   margin: 50px 0px;
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ 
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  
+  
 }
