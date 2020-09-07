@@ -60,14 +60,6 @@ html, body {
       transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
       padding: 50px 0px 40px 0px;
 }
-.about-us-wrapper{
-  height: auto;
-  background-image: url('images/cloud.jpg');
-  background-size: cover;
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  background-attachment: fixed;
-  opacity: .7;
-}
 .about-us-height{
   height:475px;
 }
@@ -810,6 +802,12 @@ span.day {
   font-size: 30px;
   text-decoration: none;
 }
+.visitorcount {
+  left: 0;
+  bottom: 0;
+  z-index: 999;
+  position: absolute;
+}
 #back2Top:hover {
   background-color: transparent;
   color: #000;
@@ -824,7 +822,15 @@ span.day {
   justify-content: center;
   margin: 50px 0px;
 }
-
+.about-us-wrapper{
+  position: relative;
+  height: auto;
+  background-image: url('images/cloud.jpg');
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  background-attachment: fixed;
+  opacity: .7;
+}
 /* 
   ##Device = Tablets, Ipads (portrait)
   ##Screen = B/w 768px to 1024px
