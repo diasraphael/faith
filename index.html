@@ -490,37 +490,37 @@
                   <hr>
       </div>
       <div class="responsive row">
-            <div class="activities-image col-xs-4 col-md-4 col-lg-4">
+            <div class="activities-image col-6 col-md-4 col-lg-4">
                   <figure>
                         <img src="images/sunday.jpg" alt="Trulli" style="width:100%">
                         <figcaption class="activities-caption">Sunday Worship <br> Sunday 11:00</figcaption>
                   </figure>
             </div>
-            <div class="activities-image col-xs-4 col-md-4 col-lg-4">
+            <div class="activities-image col-6 col-md-4 col-lg-4">
                   <figure>
                         <img src="images/morning.jpg" alt="Trulli" style="width:100%">
                         <figcaption class="activities-caption">Morning Prayers <br> Tuesday,Thursday at 5:00</figcaption>
                   </figure>
             </div>
-            <div class="activities-image col-xs-4 col-md-4 col-lg-4">
+            <div class="activities-image col-6 col-md-4 col-lg-4">
                   <figure>
                         <img src="images/fasting.jpg" alt="Trulli" style="width:100%">
                         <figcaption class="activities-caption">Fasting prayers <br> First Saturday 10:00</figcaption>
                   </figure>
             </div>
-            <div class="activities-image col-xs-4 col-md-4 col-lg-4">
+            <div class="activities-image col-6 col-md-4 col-lg-4">
                   <figure>
                         <img src="images/bible.jpg" alt="Trulli" style="width:100%">
                         <figcaption class="activities-caption">Bible study <br> Friday 18:30</figcaption>
                   </figure>
             </div>
-            <div class="activities-image col-xs-4 col-md-4 col-lg-4">
+            <div class="activities-image col-6 col-md-4 col-lg-4">
                   <figure>
                         <img src="images/kids.jpg" alt="Trulli" style="width:100%">
                         <figcaption class="activities-caption">Sunday school <br> Sunday 11:00</figcaption>
                   </figure>
             </div>
-            <div class="activities-image col-xs-4 col-md-4 col-lg-4">
+            <div class="activities-image col-6 col-md-4 col-lg-4">
                   <figure>
                         <img src="images/women.jpg" alt="Trulli" style="width:100%">
                         <figcaption class="activities-caption">Women fellowship <br> Tuesday 18:00</figcaption>
@@ -689,7 +689,35 @@ $('.responsive').slick({
   slidesToScroll: 1,
   dots: true,
   autoplay: true,
-  autoplaySpeed: 2000
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 900,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
 });
 $(document).ready(function() {
 // Params

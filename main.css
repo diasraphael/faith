@@ -58,7 +58,7 @@ html, body {
     /*  background-image: linear-gradient(250deg, #414B54 0%, #DCDFE5 94%);*/
       opacity: 0.81;
       transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
-      padding: 50px 0px 40px 0px;
+      padding: 50px 0px 70px 0px;
 }
 .about-us-height{
   height:475px;
@@ -540,7 +540,7 @@ i {
   position: absolute;
   bottom: 0;
   background: white;
-  width: 322px;
+  width: 100%;
   text-align: center;
   height: 40px;
   font-size: 14px;
@@ -789,7 +789,6 @@ span.day {
   display: none;
   cursor: pointer;
   -moz-transform: rotate(270deg);
-  -webkit-transform: rotate(270deg);
   -o-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
   transform: rotate(270deg);
@@ -803,8 +802,8 @@ span.day {
   text-decoration: none;
 }
 .visitorcount {
-  left: 0;
   bottom: 0;
+  left: 0;
   z-index: 999;
   position: absolute;
 }
