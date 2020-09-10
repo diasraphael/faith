@@ -837,7 +837,10 @@ span.day {
 
 @media (min-width: 768px) and (max-width: 1024px) {
   
- 
+  .video-content .video-iframe {
+    width: 560px;
+    float: left;
+  }
   
 }
 
@@ -848,7 +851,10 @@ span.day {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   
-  
+  .video-content .video-iframe {
+    width: 560px;
+    float: left;
+  }
   
 }
 
@@ -859,6 +865,10 @@ span.day {
 
 @media (min-width: 481px) and (max-width: 767px) {
   
+  .video-content .video-iframe {
+    width: 420px;
+    float: left;
+  }
   
   
 }
