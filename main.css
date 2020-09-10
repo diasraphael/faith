@@ -849,7 +849,7 @@ span.day {
   ##Screen = B/w 768px to 1024px
 */
 
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+@media (min-width: 668px) and (max-width: 1024px) and (orientation: landscape) {
   
   .video-content .video-iframe {
     width: 560px;
@@ -863,10 +863,10 @@ span.day {
   ##Screen = B/w 481px to 767px
 */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 667px) {
   
   .video-content .video-iframe {
-    width: 420px;
+    width: 370px;
     float: left;
   }
   
@@ -880,6 +880,9 @@ span.day {
 
 @media (min-width: 320px) and (max-width: 480px) {
   
-  
+  .video-content .video-iframe {
+    width: 270px;
+    float: left;
+  }
   
 }
