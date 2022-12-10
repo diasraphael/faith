@@ -2,11 +2,19 @@
 
 ### Trails
 
-1. Have created react application with Create React App
+1. create react application with Create React App
 
 ```
 npx create-react-app faith --template typescript
 ```
+
+2. Tailwind setup
+
+`https://github.com/diasraphael/guide/blob/main/tailwind-setup.md`
+
+3. using cdn font
+
+`https://github.com/diasraphael/guide/blob/main/using-fonts.md`
 
 ## Available Scripts
 
