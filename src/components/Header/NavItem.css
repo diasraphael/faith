@@ -1,0 +1,7 @@
+a,
+a:before {
+  transition: 0.3s ease;
+}
+a:hover:before {
+  width: 100%;
+}
