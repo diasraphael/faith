@@ -6,7 +6,7 @@ import LandingSection from "./components/landingpage/LandingSection";
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      {/*  <Header></Header> */}
       <LandingSection></LandingSection>
     </div>
   );
