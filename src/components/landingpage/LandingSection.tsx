@@ -1,10 +1,12 @@
 import React from "react";
 import Slider from "./Slider";
+import SocialIcons from "./SocialIcons";
 
 const LandingSection = () => {
   return (
-    <div className="home relative w-full min-h-screen flex flex-col bg-white justify-center before:z-50">
+    <div className="min-h-screen">
       {/*  <div className="xl:px-[13rem] xl:py-[6rem] px-20 flex flex-row items-center text-white"> */}
+      <SocialIcons></SocialIcons>
       <Slider></Slider>
       {/* <div className="z-30 w-2/4 mt-14">
           <h1 className="text-6xl font-black uppercase tracking-wide mb-10">
@@ -20,7 +22,7 @@ const LandingSection = () => {
             <a href="/home">Read More</a>
           </div>
         </div>
-        <SocialIcons></SocialIcons> */}
+         */}
       {/*  </div> */}
     </div>
   );
