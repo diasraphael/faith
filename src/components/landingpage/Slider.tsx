@@ -29,10 +29,11 @@ const Slider = () => {
               Faith Baptist Church <span>Oslo</span>
             </h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Faith Baptist Church welcomes everyone irrespective of the
+              language, culture, religion. We love God. We are a group of Tamil
+              Christians come together to worship Jesus and have fellowship. We
+              would like to transform people and their lives by teaching them
+              about Jesus.
             </p>
             <button className="read-btn">Join us</button>
           </div>
@@ -41,13 +42,14 @@ const Slider = () => {
           <img src="barcode.jpg" alt="landing page" />
           <div className="text-content">
             <h2 className="title">
-              Faith Baptist Church <span>Oslo</span>
+              Faith Baptist Church <span>Sandnes</span>
             </h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Faith Baptist Church welcomes everyone irrespective of the
+              language, culture, religion. We love God. We are a group of Tamil
+              Christians come together to worship Jesus and have fellowship. We
+              would like to transform people and their lives by teaching them
+              about Jesus.
             </p>
             <button className="read-btn">Join us</button>
           </div>
@@ -56,13 +58,14 @@ const Slider = () => {
           <img src="norway.jpg" alt="landing page" />
           <div className="text-content">
             <h2 className="title">
-              Faith Baptist Church <span>Oslo</span>
+              Faith Baptist Church <span>Cyprus</span>
             </h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Faith Baptist Church welcomes everyone irrespective of the
+              language, culture, religion. We love God. We are a group of Tamil
+              Christians come together to worship Jesus and have fellowship. We
+              would like to transform people and their lives by teaching them
+              about Jesus.
             </p>
             <button className="read-btn">Join us</button>
           </div>
@@ -71,13 +74,14 @@ const Slider = () => {
           <img src="opera1.jpg" alt="landing page" />
           <div className="text-content">
             <h2 className="title">
-              Faith Baptist Church <span>Oslo</span>
+              Faith Baptist Church <span>India</span>
             </h2>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              Faith Baptist Church welcomes everyone irrespective of the
+              language, culture, religion. We love God. We are a group of Tamil
+              Christians come together to worship Jesus and have fellowship. We
+              would like to transform people and their lives by teaching them
+              about Jesus.
             </p>
             <button className="read-btn">Join us</button>
           </div>
