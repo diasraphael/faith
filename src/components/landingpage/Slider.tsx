@@ -30,10 +30,10 @@ const Slider = () => {
             </h2>
             <p>
               Faith Baptist Church welcomes everyone irrespective of the
-              language, culture, religion. We love God. We are a group of Tamil
-              Christians come together to worship Jesus and have fellowship. We
-              would like to transform people and their lives by teaching them
-              about Jesus.
+              language, culture and religion. We love God. We are a group of
+              tamil christians come together to worship Jesus and have
+              fellowship. We would like to transform people and their lives by
+              teaching them about Jesus.
             </p>
             <button className="read-btn">Join us</button>
           </div>
@@ -46,10 +46,10 @@ const Slider = () => {
             </h2>
             <p>
               Faith Baptist Church welcomes everyone irrespective of the
-              language, culture, religion. We love God. We are a group of Tamil
-              Christians come together to worship Jesus and have fellowship. We
-              would like to transform people and their lives by teaching them
-              about Jesus.
+              language, culture and religion. We love God. We are a group of
+              tamil christians come together to worship Jesus and have
+              fellowship. We would like to transform people and their lives by
+              teaching them about Jesus.
             </p>
             <button className="read-btn">Join us</button>
           </div>
@@ -78,10 +78,10 @@ const Slider = () => {
             </h2>
             <p>
               Faith Baptist Church welcomes everyone irrespective of the
-              language, culture, religion. We love God. We are a group of Tamil
-              Christians come together to worship Jesus and have fellowship. We
-              would like to transform people and their lives by teaching them
-              about Jesus.
+              language, culture and religion. We love God. We are a group of
+              tamil christians come together to worship Jesus and have
+              fellowship. We would like to transform people and their lives by
+              teaching them about Jesus.
             </p>
             <button className="read-btn">Join us</button>
           </div>
