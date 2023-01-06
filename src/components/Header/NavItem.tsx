@@ -9,7 +9,10 @@ interface NavItemProps {
 const NavItem = (props: NavItemProps) => {
   const { title, url } = props;
   return (
-    <a className="" href={url}>
+    <a
+      className="relative text-white text-base font-medium no-underline ml-7"
+      href={url}
+    >
       {title}
     </a>
   );
