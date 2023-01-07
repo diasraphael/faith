@@ -1,0 +1,17 @@
+.nav a {
+  transition: 0.3s ease;
+  width: 0;
+}
+.nav a:before {
+  content: "";
+  position: absolute;
+  background: #fff;
+  width: 0%;
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s ease;
+}
+.nav a:hover:before {
+  width: 100%;
+}
