@@ -24,6 +24,7 @@
   margin: 0 200px;
   transition: 0.3s ease;
 }
+
 .swiper-slide .text-content .title {
   font-size: 4em;
   font-weight: 700;
@@ -119,4 +120,30 @@
 }
 .swiper-slide-thumb-active img {
   border: 1px solid #fff;
+}
+@media screen and (max-width: 1100px) {
+  .swiper-slide .text-content {
+    margin: 0px 50px;
+  }
+  .bg-slider-thumbs {
+    bottom: 3em;
+  }
+  .swiper-slide .text-content .title {
+    font-size: 3em;
+  }
+  .swiper-slide .text-content .title span {
+    font-size: 0.35em;
+  }
+  .swiper-slide .text-content p {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (max-width: 785px) {
+  .swiper-slide .text-content {
+    margin: 0px 20px;
+  }
+  .bg-slider-thumbs {
+    bottom: 3em;
+  }
 }
