@@ -7,8 +7,8 @@ const Header = () => {
   return (
     <div className="header">
       <HomeIcon></HomeIcon>
-      {/* <div className="hamburger"></div> */}
-      <div className="relative">
+      <div className="hamburger"></div>
+      <div className="relative nav">
         <NavItem title="Home" url="/home"></NavItem>
         <NavItem title="About us" url="/about"></NavItem>
         <NavItem title="Ministries" url="/ministries"></NavItem>

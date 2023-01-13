@@ -11,7 +11,7 @@ const NavItem = (props: NavItemProps) => {
   return (
     <span className="nav">
       <a
-        className="relative text-white text-base font-medium no-underline ml-7"
+        className="relative text-white text-base font-medium no-underline"
         href={url}
       >
         {title}

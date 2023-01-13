@@ -1,6 +1,7 @@
 .nav a {
   transition: 0.3s ease;
   width: 0;
+  margin-left: 1.75rem;
 }
 .nav a:before {
   content: "";
