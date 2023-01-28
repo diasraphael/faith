@@ -1,11 +1,12 @@
-import React from "react";
-import HomeIcon from "./HomeIcon";
-import NavItem from "./NavItem";
-import "./Header.css";
+import React from 'react';
+import HomeIcon from './HomeIcon';
+import NavItem from './NavItem';
+import './../../style/base.scss';
+import './Header.scss';
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header space-outer">
       <HomeIcon></HomeIcon>
       <div className="hamburger"></div>
       <div className="relative nav">

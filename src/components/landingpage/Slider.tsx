@@ -1,12 +1,12 @@
-import React, { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "swiper/css/free-mode";
-import "swiper/css/navigation";
-import "swiper/css/thumbs";
-import "./Slider.css";
-import { EffectFade, FreeMode, Navigation, Thumbs, Autoplay } from "swiper";
+import React, { useState } from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/effect-fade';
+import 'swiper/css/free-mode';
+import 'swiper/css/navigation';
+import 'swiper/css/thumbs';
+import './Slider.css';
+import { EffectFade, FreeMode, Navigation, Thumbs, Autoplay } from 'swiper';
 
 const Slider = () => {
   const [thumbsSwiper, setThumbsSwiper] = useState<any>(null);
@@ -16,7 +16,7 @@ const Slider = () => {
       <Swiper
         loop={true}
         spaceBetween={0}
-        effect={"fade"}
+        effect={'fade'}
         autoplay={{
           delay: 7000,
           disableOnInteraction: false,

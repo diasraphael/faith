@@ -1,0 +1,113 @@
+$dark-grey-1: #777;
+$dark-grey-2: #999;
+$dark-grey-3: #333;
+
+/* SCSS HEX */
+$aero: #7cb7e5ff;
+$tufts-blue: #3c92d3ff;
+$cadet: #49616fff;
+$indigo-dye: #204f72ff;
+$cafe-au-lait: #af896dff;
+
+/* SCSS HSL */
+$aero: hsla(206, 67%, 69%, 1);
+$tufts-blue: hsla(206, 63%, 53%, 1);
+$cadet: hsla(202, 21%, 36%, 1);
+$indigo-dye: hsla(206, 56%, 29%, 1);
+$cafe-au-lait: hsla(25, 29%, 56%, 1);
+
+/* SCSS RGB */
+$aero: rgba(124, 183, 229, 1);
+$tufts-blue: rgba(60, 146, 211, 1);
+$cadet: rgba(73, 97, 111, 1);
+$indigo-dye: rgba(32, 79, 114, 1);
+$cafe-au-lait: rgba(175, 137, 109, 1);
+
+/* SCSS Gradient */
+$gradient-top: linear-gradient(
+  0deg,
+  #7cb7e5ff,
+  #3c92d3ff,
+  #49616fff,
+  #204f72ff,
+  #af896dff
+);
+$gradient-right: linear-gradient(
+  90deg,
+  #7cb7e5ff,
+  #3c92d3ff,
+  #49616fff,
+  #204f72ff,
+  #af896dff
+);
+$gradient-bottom: linear-gradient(
+  180deg,
+  #7cb7e5ff,
+  #3c92d3ff,
+  #49616fff,
+  #204f72ff,
+  #af896dff
+);
+$gradient-left: linear-gradient(
+  270deg,
+  #7cb7e5ff,
+  #3c92d3ff,
+  #49616fff,
+  #204f72ff,
+  #af896dff
+);
+$gradient-top-right: linear-gradient(
+  45deg,
+  #7cb7e5ff,
+  #3c92d3ff,
+  #49616fff,
+  #204f72ff,
+  #af896dff
+);
+$gradient-bottom-right: linear-gradient(
+  135deg,
+  #7cb7e5ff,
+  #3c92d3ff,
+  #49616fff,
+  #204f72ff,
+  #af896dff
+);
+$gradient-top-left: linear-gradient(
+  225deg,
+  #7cb7e5ff,
+  #3c92d3ff,
+  #49616fff,
+  #204f72ff,
+  #af896dff
+);
+$gradient-bottom-left: linear-gradient(
+  315deg,
+  #7cb7e5ff,
+  #3c92d3ff,
+  #49616fff,
+  #204f72ff,
+  #af896dff
+);
+$gradient-radial: radial-gradient(
+  #7cb7e5ff,
+  #3c92d3ff,
+  #49616fff,
+  #204f72ff,
+  #af896dff
+);
+html {
+  font-size: 10px;
+}
+.space-outer {
+  padding: 1.5rem 20rem;
+}
+@media screen and (max-width: 1100px) {
+  .space-outer {
+    padding: 1.5rem 5rem;
+  }
+}
+@media screen and (max-width: 785px) {
+  .space-outer {
+    padding: 1.5rem 2rem;
+  }
+}

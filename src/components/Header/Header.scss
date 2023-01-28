@@ -1,5 +1,5 @@
-.hamburger {
-  background: url("/src/images/hamburger.png") no-repeat;
+/* .hamburger {
+  background: url('/src/images/hamburger.png') no-repeat;
   background-size: 30px;
   background-position: center;
   width: 40px;
@@ -7,7 +7,9 @@
   cursor: pointer;
   transition: 0.3s ease;
   display: none;
-}
+} */
+
+@import './../../style/base.scss';
 
 .header {
   z-index: 999;
@@ -18,25 +20,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 200px;
   transition: 0.5s ease;
 }
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 10rem;
+  height: 10rem;
 }
-@media screen and (max-width: 1100px) {
-  .header {
-    padding: 15px 50px;
-  }
-}
+
 @media screen and (max-width: 785px) {
-  .header {
-    padding: 15px 50px;
-  }
   .logo {
-    height: 80px;
-    width: 80px;
+    height: 8rem;
+    width: 8rem;
   }
   .nav {
     display: none;
