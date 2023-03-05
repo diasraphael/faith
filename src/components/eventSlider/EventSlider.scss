@@ -202,3 +202,9 @@
   font-size: 1.9rem;
   padding: 2rem 5rem;
 }
+
+@media screen and (max-width: 600px) {
+  .dots {
+    bottom: 0;
+  }
+}

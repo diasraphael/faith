@@ -1,7 +1,7 @@
 import React from 'react';
-import './ContactUs.scss';
+import './LocationMap.scss';
 
-const ContactUs = () => {
+const LocationMap = () => {
   return (
     <section className="contact-us">
       <div className="contact-container">
@@ -17,4 +17,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs;
+export default LocationMap;
