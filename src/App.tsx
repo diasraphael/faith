@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer';
 import Gallery from './components/gallery/Gallery';
 import LandingSection from './components/landingpage/LandingSection';
 import LocationMap from './components/locationMap/LocationMap';
+import VideoPlayer from './components/videoPlayer/VideoPlayer';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <LandingSection></LandingSection>
       <EventSlider></EventSlider>
       <Gallery></Gallery>
+      <VideoPlayer></VideoPlayer>
       <LocationMap></LocationMap>
       <Footer></Footer>
     </div>
