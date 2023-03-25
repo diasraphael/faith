@@ -95,9 +95,9 @@ const EventSlider = () => {
   return (
     <section className="section">
       <div className="section__title section__title--testimonials">
-        <h2 className="section__description">Not sure yet?</h2>
+        <h2 className="section__description">Our Events</h2>
         <h3 className="section__header">
-          Millions of Bankists are already making their lifes simpler.
+          Return to the Lord's house with your wounded heart.
         </h3>
       </div>
 
