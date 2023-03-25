@@ -205,7 +205,7 @@ const VideoPlayer = () => {
   };
 
   return (
-    <section className="section video-library">
+    <section className="section video-library" id="messages">
       <div className="section__title section__title--testimonials">
         <h2 className="section__description">Our Church Sermons</h2>
         <h3 className="section__header">

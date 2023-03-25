@@ -4,7 +4,7 @@ import './Footer.scss';
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer" id="contact">
       <div className="waves">
         <div className="wave" id="wave1"></div>
         <div className="wave" id="wave2"></div>
@@ -69,19 +69,19 @@ const Footer = () => {
               <span className="footer-header">Menu</span>
               <ul>
                 <li>
-                  <NavItem1 title="Home" url="/home"></NavItem1>
+                  <NavItem1 title="Home" url="#home"></NavItem1>
                 </li>
                 <li>
-                  <NavItem1 title="About us" url="/about"></NavItem1>
+                  <NavItem1 title="About us" url="#about"></NavItem1>
                 </li>
                 <li>
-                  <NavItem1 title="Ministries" url="/ministries"></NavItem1>
+                  <NavItem1 title="Ministries" url="#events"></NavItem1>
                 </li>
                 <li>
-                  <NavItem1 title="Gallery" url="/gallery"></NavItem1>
+                  <NavItem1 title="Gallery" url="#gallery"></NavItem1>
                 </li>
                 <li>
-                  <NavItem1 title="Sermons" url="/sermons"></NavItem1>
+                  <NavItem1 title="Sermons" url="#messages"></NavItem1>
                 </li>
               </ul>
             </div>

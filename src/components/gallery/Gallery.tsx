@@ -16,7 +16,7 @@ const Gallery = () => {
   };
 
   return (
-    <section className="section">
+    <section className="section" id="gallery">
       <div className="section__title section__title--testimonials">
         <h2 className="section__description">Our Gatherings</h2>
         <h3 className="section__header">

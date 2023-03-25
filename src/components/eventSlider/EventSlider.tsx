@@ -93,7 +93,7 @@ const EventSlider = () => {
   }, []);
 
   return (
-    <section className="section">
+    <section className="section" id="events">
       <div className="section__title section__title--testimonials">
         <h2 className="section__description">Our Events</h2>
         <h3 className="section__header">

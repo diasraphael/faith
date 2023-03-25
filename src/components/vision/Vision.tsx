@@ -3,7 +3,7 @@ import './Vision.scss';
 
 const Vision = () => {
   return (
-    <section className="section" id="section--1">
+    <section className="section" id="about">
       <div className="section__title">
         <h2 className="section__description">About Us</h2>
         <h3 className="section__header">
