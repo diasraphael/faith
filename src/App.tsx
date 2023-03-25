@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer';
 import Gallery from './components/gallery/Gallery';
 import LandingSection from './components/landingpage/LandingSection';
 import LocationMap from './components/locationMap/LocationMap';
+import PromiseWall from './components/promise/Promise';
 import VideoPlayer from './components/videoPlayer/VideoPlayer';
 import Vision from './components/vision/Vision';
 
@@ -14,6 +15,7 @@ function App() {
       <LandingSection></LandingSection>
       <Vision></Vision>
       <EventSlider></EventSlider>
+      <PromiseWall></PromiseWall>
       <Gallery></Gallery>
       <VideoPlayer></VideoPlayer>
       <LocationMap></LocationMap>
