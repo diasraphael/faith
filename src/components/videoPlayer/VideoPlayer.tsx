@@ -142,59 +142,59 @@ const VideoPlayer = () => {
   const [data] = useState([
     {
       id: 'a1',
-      title: 'manipulate text background',
-      name: 'manipulate text background.mp4',
-      duration: '2:47',
+      title: 'FBC Bible Study 24.03.2023',
+      name: 'https://www.youtube.com/embed/W27ZGIhxMy4',
+      duration: '1:36:00',
     },
     {
       id: 'a2',
-      title: 'build gauge with css',
-      name: 'build gauge with css.mp4',
-      duration: '2:45',
+      title: 'FBC Sunday Service 19.03.2023',
+      name: 'https://www.youtube.com/embed/OKUodbv0EP4',
+      duration: '2:55:14',
     },
     {
       id: 'a3',
-      title: '3D popup card',
-      name: '3D popup card.mp4',
-      duration: '24:49',
+      title: 'FBC Bible Study 17.03.2023',
+      name: 'https://www.youtube.com/embed/bAlUXpI9sWI',
+      duration: '1:22:32',
     },
 
     {
       id: 'a4',
-      title: 'customize HTML5 form elements',
-      name: 'customize HTML5 form elements.mp4',
-      duration: '3:59',
+      title: 'FBC-Sunday Service-12.03.2023',
+      name: 'https://www.youtube.com/embed/VkoiOAZ50K0',
+      duration: '1:14:52',
     },
     {
       id: 'a5',
-      title: 'custom select box',
-      name: 'custom select box.mp4',
-      duration: '4:25',
+      title: 'FBC Bible study 10.03.2023',
+      name: 'https://www.youtube.com/embed/dZCuM2pW2C8',
+      duration: '1:17:24',
     },
     {
       id: 'a6',
-      title: 'embed google map to contact form',
-      name: 'embed google map to contact form.mp4',
-      duration: '5:33',
+      title: 'FBC-Sunday Service-05.03.2023',
+      name: 'https://www.youtube.com/embed/XerHve9Q3g8',
+      duration: '1:06:04',
     },
     {
       id: 'a7',
-      title: 'password strength checker javascript web app',
-      name: 'password strength checker javascript web app.mp4',
-      duration: '0:29',
+      title: 'FBC-Fasting Prayer-04.03.2023',
+      name: 'https://www.youtube.com/embed/cQ2tToIhbJs',
+      duration: '50:36',
     },
 
     {
       id: 'a8',
-      title: 'custom range slider',
-      name: 'custom range slider.mp4',
-      duration: '1:12',
+      title: 'FBC-Sunday Service-26.02.2023',
+      name: 'https://www.youtube.com/embed/8DYRLqWIpk0',
+      duration: '1:11:14',
     },
     {
       id: 'a9',
-      title: 'animated shopping cart',
-      name: 'animated shopping cart.mp4',
-      duration: '3:38',
+      title: 'FBC-Sunday Service-19.02.2023',
+      name: 'https://www.youtube.com/embed/nJyyE4_D8PU',
+      duration: '2:49:20',
     },
   ]);
 
@@ -209,18 +209,19 @@ const VideoPlayer = () => {
       <div className="section__title section__title--testimonials">
         <h2 className="section__description">Our Church Sermons</h2>
         <h3 className="section__header">
-          Millions of Bankists are already making their lifes simpler.
+          Your most powerful testimony is how you treat others after the church
+          service is over.
         </h3>
       </div>
       <div className="flex items-center">
         <div className="video-container">
           <div className="main-video">
-            <video
-              src={`videos/${selectedVideo.name}`}
-              controls
-              autoPlay
-              muted
-            ></video>
+            <iframe
+              allowFullScreen
+              src={`${selectedVideo.name}`}
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            ></iframe>
             <h3 className="title">{selectedVideo.title}</h3>
           </div>
 

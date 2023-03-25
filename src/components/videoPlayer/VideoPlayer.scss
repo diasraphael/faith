@@ -11,7 +11,7 @@
   color: var(--text);
 }
 .video-container {
-  width: 100vw;
+  width: 100%;
   margin-top: 10rem;
   display: grid;
   grid-template-columns: 1.8fr 1.2fr;
@@ -24,7 +24,7 @@
   background-color: #333;
 }
 
-@media screen and (max-width: 990px) {
+@media screen and (max-width: 1280px) {
   .video-container {
     grid-template-columns: 1fr;
   }
@@ -98,8 +98,9 @@
   color: var(--secondary);
 }
 
-.main-video video {
+.main-video iframe {
   width: 100%;
+  height: 100%;
   border-radius: 0.5rem;
 }
 
@@ -132,4 +133,32 @@
 
   font: 500 1rem 'Poppins';
   padding: 0 0.5rem;
+}
+
+@media screen and (max-width: 730px) {
+  .video-playlist,
+  .main-video {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .video-playlist,
+  .main-video {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .video-playlist,
+  .main-video {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .video-playlist,
+  .main-video {
+    width: 65%;
+  }
 }

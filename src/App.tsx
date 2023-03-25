@@ -15,7 +15,7 @@ function App() {
       <Vision></Vision>
       <EventSlider></EventSlider>
       <Gallery></Gallery>
-      {/*<VideoPlayer></VideoPlayer> */}
+      <VideoPlayer></VideoPlayer>
       <LocationMap></LocationMap>
       <Footer></Footer>
     </div>

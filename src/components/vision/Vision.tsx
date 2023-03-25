@@ -5,7 +5,7 @@ const Vision = () => {
   return (
     <section className="section" id="section--1">
       <div className="section__title">
-        <h2 className="section__description">Our Vision</h2>
+        <h2 className="section__description">About Us</h2>
         <h3 className="section__header">
           Reaching the nations with the good news.
         </h3>
