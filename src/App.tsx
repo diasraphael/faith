@@ -6,14 +6,16 @@ import Gallery from './components/gallery/Gallery';
 import LandingSection from './components/landingpage/LandingSection';
 import LocationMap from './components/locationMap/LocationMap';
 import VideoPlayer from './components/videoPlayer/VideoPlayer';
+import Vision from './components/vision/Vision';
 
 function App() {
   return (
     <div className="App">
       <LandingSection></LandingSection>
+      <Vision></Vision>
       <EventSlider></EventSlider>
       <Gallery></Gallery>
-      <VideoPlayer></VideoPlayer>
+      {/*<VideoPlayer></VideoPlayer> */}
       <LocationMap></LocationMap>
       <Footer></Footer>
     </div>

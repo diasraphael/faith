@@ -22,15 +22,15 @@
   margin-top: 50px;
 }
 .gallery-item {
-  width: 200px;
-  height: 300px;
+  width: 70px;
+  height: 100px;
   background-position: 50% 50%;
   display: inline-block;
   transition: 0.5s;
   background-size: cover;
   position: absolute;
   z-index: 1;
-  top: 50%;
+  top: 70%;
   transform: translate(0, -50%);
   border-radius: 20px;
   box-shadow: 0 30px 50px #505050;
@@ -47,15 +47,18 @@
 }
 .gallery-item:nth-child(3) {
   left: 50%;
+  opacity: 0;
 }
 .gallery-item:nth-child(4) {
-  left: calc(50% + 220px);
+  left: calc(50% + 120px);
+  opacity: 0;
 }
 .gallery-item:nth-child(5) {
-  left: calc(50% + 440px);
+  left: calc(50% + 240px);
+  opacity: 0;
 }
 .gallery-item:nth-child(n + 6) {
-  left: calc(50% + 660px);
+  left: calc(50% + 360px);
   opacity: 0;
 }
 .gallery-item .content {

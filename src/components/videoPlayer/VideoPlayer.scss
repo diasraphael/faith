@@ -7,7 +7,7 @@
 .video-library {
   min-height: 100vh;
   background-image: var(--primary);
-  font-family: sans-serif;
+  font-family: 'Poppins';
   color: var(--text);
 }
 .video-container {
@@ -125,11 +125,11 @@
 }
 
 .video h3 {
-  width: 35rem;
+  width: 50rem;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 
-  font: 100 1rem sans-serif;
+  font: 500 1rem 'Poppins';
   padding: 0 0.5rem;
 }

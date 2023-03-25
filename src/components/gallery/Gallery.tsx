@@ -18,38 +18,38 @@ const Gallery = () => {
   return (
     <section className="section">
       <div className="section__title section__title--testimonials">
-        <h2 className="section__description">Not sure yet?</h2>
+        <h2 className="section__description">Our Gatherings</h2>
         <h3 className="section__header">
-          Millions of Bankists are already making their lifes simpler.
+          Memories are timeless treasures of the heart.
         </h3>
       </div>
       <div className="gallery">
         <div className="gallery-container">
           <div id="gallerySlide">
             <GallerySlide
-              url="1.jpg"
+              url="images/gallery/gall1.jpg"
               header="Church Events"
-              description="One of the social events which gives more joy and happiness"
+              description="The social events which gives us more joy and happiness"
             ></GallerySlide>
             <GallerySlide
-              url="2.jpg"
+              url="images/gallery/gall2.jpg"
               header="Church Events"
-              description="One of the social events which gives more joy and happiness"
+              description="The social events which gives more joy and happiness"
             ></GallerySlide>
             <GallerySlide
-              url="3.jpg"
+              url="images/gallery/gall3.jpg"
               header="Church Events"
-              description="One of the social events which gives more joy and happiness"
+              description="The social events which gives more joy and happiness"
             ></GallerySlide>
             <GallerySlide
-              url="4.jpg"
+              url="images/gallery/gall4.jpg"
               header="Church Events"
-              description="One of the social events which gives more joy and happiness"
+              description="The social events which gives more joy and happiness"
             ></GallerySlide>
             <GallerySlide
-              url="5.jpg"
+              url="images/gallery/gall5.jpg"
               header="Church Events"
-              description="One of the social events which gives more joy and happiness"
+              description="The social events which gives more joy and happiness"
             ></GallerySlide>
           </div>
           <div className="buttons">
