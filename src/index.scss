@@ -60,3 +60,11 @@ code {
   line-height: 1.3;
   font-weight: 500;
 }
+
+@media screen and (max-width: 550px) {
+  .section__header {
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 500;
+  }
+}

@@ -159,6 +159,12 @@
 @media screen and (max-width: 550px) {
   .video-playlist,
   .main-video {
-    width: 65%;
+    width: 50%;
+  }
+  .video-playlist .title {
+    font-size: 1.5rem;
+  }
+  .video p {
+    font-size: 1.5rem;
   }
 }
