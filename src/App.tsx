@@ -8,6 +8,7 @@ import LocationMap from './components/locationMap/LocationMap';
 import PromiseWall from './components/promise/Promise';
 import VideoPlayer from './components/videoPlayer/VideoPlayer';
 import Vision from './components/vision/Vision';
+import { About } from './components/about/About';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <EventSlider></EventSlider>
       <PromiseWall></PromiseWall>
       <Gallery></Gallery>
+      {/*  <About></About> */}
       <VideoPlayer></VideoPlayer>
       <LocationMap></LocationMap>
       <Footer></Footer>

@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="address-box box">
               <span className="footer-header">Visit Us</span>
               <p className="">Faith Baptist Church</p>
-              <p className="">Stæljeæra 11</p>
+              <p className="">Stålfjæra 20, 0975</p>
               <p className="">Oslo, Norway</p>
               <p>Mobile no: 95881223</p>
               <p>Email: anto-b@online.no</p>
@@ -87,7 +87,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="copyright center">
-            <p className="">Faith Baptist Church @ 2023. All rights Reserved</p>
+            <p className="">Faith Baptist Church @ 2024. All rights Reserved</p>
           </div>
         </div>
       </div>

@@ -5,14 +5,12 @@ const PromiseWall = () => {
   return (
     <section className="section promise-wall">
       <div className="section__title section__title--testimonials text-center">
-        <h2 className="section__description white">Promise of the year 2023</h2>
+        <h2 className="section__description white">Promise of the year 2024</h2>
         <h2 className="promise-text text-white my-32">
-          Look, there on the mountains, the feet of one who brings good news,
-          who proclaims peace! Celebrate your festivals, Judah, and fulfill your
-          vows. No more will the wicked invade you; they will be completely
-          destroyed.
+          “Enlarge the place of your tent, stretch your tent curtains wide, do
+          not hold back; lengthen your cords, strengthen your stakes.
         </h2>
-        <h2 className="text-white text-3xl">Nahum 1:15</h2>
+        <h2 className="text-white text-3xl">Isaiah 54:2</h2>
       </div>
     </section>
   );
