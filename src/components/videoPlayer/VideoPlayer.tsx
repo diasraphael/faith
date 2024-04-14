@@ -142,15 +142,15 @@ const VideoPlayer = () => {
   const [data] = useState([
     {
       id: 'a1',
-      title: 'FBC-Bible Study-12.04.2024',
-      name: 'https://www.youtube.com/embed/6FNTjW6ZbEc',
-      duration: '1:11:18',
-    },
-    {
-      id: 'a2',
       title: 'FBC-Sunday Service-07.04.2024',
       name: 'https://www.youtube.com/embed/i6HnsKMnqMg',
       duration: '1:01:24',
+    },
+    {
+      id: 'a2',
+      title: 'FBC-Bible Study-12.04.2024',
+      name: 'https://www.youtube.com/embed/6FNTjW6ZbEc',
+      duration: '1:11:18',
     },
     {
       id: 'a3',

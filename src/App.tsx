@@ -18,8 +18,8 @@ function App() {
       <EventSlider></EventSlider>
       <PromiseWall></PromiseWall>
       <Gallery></Gallery>
-      {/*  <About></About> */}
       <VideoPlayer></VideoPlayer>
+      <About></About>
       <LocationMap></LocationMap>
       <Footer></Footer>
     </div>
