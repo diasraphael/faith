@@ -28,7 +28,7 @@ const Vision = () => {
             Building a united church that is spiritually powerful. Consisting of
             Tamil Christian brothers and sisters who wish to worship the Lord
             God in truth and spirit, with Jesus Christ as the head and
-            themselves as the body of Christ.{' '}
+            themselves as the body of Christ.
             <div className="pt-4">
               We believe, Bible is the word of God breath of the Spirit of God
               (2Tim.3:16, 2Pet.1:20, 21), after knowing God and to get his

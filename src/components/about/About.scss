@@ -76,3 +76,8 @@
   user-select: none;
   font-size: 14px;
 }
+@media screen and (max-width: 1250px) {
+  .row {
+    grid-template-columns: 1fr;
+  }
+}

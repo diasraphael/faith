@@ -24,7 +24,7 @@
   background-color: #333;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1524px) {
   .video-container {
     grid-template-columns: 1fr;
   }
@@ -39,6 +39,7 @@
 .main-video,
 .video-playlist {
   width: 100%;
+  min-height: 700px;
 }
 
 .main-video .title {
@@ -139,6 +140,7 @@
   .video-playlist,
   .main-video {
     width: 90%;
+    min-height: 400px;
   }
 }
 
@@ -146,6 +148,7 @@
   .video-playlist,
   .main-video {
     width: 75%;
+    min-height: 400px;
   }
 }
 
@@ -153,6 +156,7 @@
   .video-playlist,
   .main-video {
     width: 70%;
+    min-height: 400px;
   }
 }
 
@@ -160,6 +164,7 @@
   .video-playlist,
   .main-video {
     width: 50%;
+    min-height: 400px;
   }
   .video-playlist .title {
     font-size: 1.5rem;
