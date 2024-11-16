@@ -1,0 +1,39 @@
+.audio-player {
+  max-width: 500px;
+  min-width: 300px;
+  width: 100%;
+  z-index: 779;
+  position: absolute;
+  bottom: 15em;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+  transition: 0.3s ease;
+}
+.rhap_container {
+  background-color: rgba(255, 255, 255, 0.1) !important;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  padding: 10px 3px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 20%);
+}
+.rhap_main-controls-button {
+  color: #fbeded !important;
+}
+.rhap_progress-indicator {
+  background: #fbeded !important;
+}
+.rhap_volume-button,
+.rhap_repeat-button,
+.rhap_time {
+  color: #fbeded !important;
+}
+.rhap_volume-indicator {
+  background: #fbeded !important;
+}
+
+@media screen and (max-width: 1024px) {
+  .audio-player {
+    bottom: 12em;
+  }
+}

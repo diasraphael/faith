@@ -16,7 +16,7 @@
   display: grid;
   grid-template-columns: 1.8fr 1.2fr;
   gap: 1rem;
-
+  overflow: hidden;
   padding: 0.5rem 1rem;
   text-transform: capitalize;
 }
@@ -147,7 +147,7 @@
 @media screen and (max-width: 650px) {
   .video-playlist,
   .main-video {
-    width: 75%;
+    width: 80%;
     min-height: 400px;
   }
 }
@@ -155,7 +155,7 @@
 @media screen and (max-width: 600px) {
   .video-playlist,
   .main-video {
-    width: 70%;
+    width: 72%;
     min-height: 400px;
   }
 }
@@ -163,7 +163,7 @@
 @media screen and (max-width: 550px) {
   .video-playlist,
   .main-video {
-    width: 50%;
+    width: 70%;
     min-height: 400px;
   }
   .video-playlist .title {
