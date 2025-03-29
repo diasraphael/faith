@@ -5,7 +5,7 @@ const VideoSection = () => {
   const [showVideo, setShowVideo] = useState(false);
 
   return (
-    <div className="section">
+    <div className="video-section">
       <div className="video-container-sermon">
         <div className="content-box">
           <h2>Welcome to Faith Baptist Church</h2>
