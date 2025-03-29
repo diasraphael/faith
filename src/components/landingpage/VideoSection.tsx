@@ -9,9 +9,7 @@ const VideoSection = () => {
       <div className="video-container">
         <div className="content-box">
           <h2>Welcome to Faith Baptist Church</h2>
-          <p>
-            Our Latest Sermon: Self-Sympathy - A Spiritual Challenge Scripture
-          </p>
+          <p>Our Latest Sermon: Self-Sympathy - A Spiritual Challenge</p>
           <p>Scripture References: 1 Kings 19:1-18, Proverb 28:13 </p>
           <p>
             Self-sympathy is a spiritual ailment that can divert us from God's
