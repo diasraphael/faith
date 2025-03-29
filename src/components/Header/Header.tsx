@@ -1,8 +1,8 @@
-import React from 'react';
-import HomeIcon from './HomeIcon';
-import NavItem from './NavItem';
-import './../../style/base.scss';
-import './Header.scss';
+import React from "react";
+import "./../../style/base.scss";
+import "./Header.scss";
+import HomeIcon from "./HomeIcon";
+import NavItem from "./NavItem";
 
 const Header = () => {
   return (

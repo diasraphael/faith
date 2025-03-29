@@ -1,6 +1,6 @@
-import React from 'react';
-import NavItem1 from '../header/NavItem1';
-import './Footer.scss';
+import React from "react";
+import "./Footer.scss";
+import NavItem from "../header/NavItem";
 
 const Footer = () => {
   return (
@@ -69,25 +69,25 @@ const Footer = () => {
               <span className="footer-header">Menu</span>
               <ul>
                 <li>
-                  <NavItem1 title="Home" url="#home"></NavItem1>
+                  <NavItem title="Home" url="#home"></NavItem>
                 </li>
                 <li>
-                  <NavItem1 title="About us" url="#about"></NavItem1>
+                  <NavItem title="About us" url="#about"></NavItem>
                 </li>
                 <li>
-                  <NavItem1 title="Ministries" url="#events"></NavItem1>
+                  <NavItem title="Ministries" url="#events"></NavItem>
                 </li>
                 <li>
-                  <NavItem1 title="Gallery" url="#gallery"></NavItem1>
+                  <NavItem title="Gallery" url="#gallery"></NavItem>
                 </li>
                 <li>
-                  <NavItem1 title="Sermons" url="#messages"></NavItem1>
+                  <NavItem title="Sermons" url="#messages"></NavItem>
                 </li>
               </ul>
             </div>
           </div>
           <div className="copyright center">
-            <p className="">Faith Baptist Church @ 2024. All rights Reserved</p>
+            <p className="">Faith Baptist Church @ 2025. All rights Reserved</p>
           </div>
         </div>
       </div>

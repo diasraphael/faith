@@ -1,4 +1,4 @@
-@import 'style/base.scss';
+@use 'style/base' as colors;
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -52,7 +52,7 @@ code {
   font-size: 1.8rem;
   font-weight: 600;
   text-transform: uppercase;
-  color: $cafe-au-lait;
+  color: colors.$cafe-au-lait;
   margin-bottom: 1rem;
 }
 .section__header {
