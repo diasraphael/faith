@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.scss";
-import NavItem from "../header/NavItem";
+import NavItem from "../Header/NavItem";
 
 const Footer = () => {
   return (

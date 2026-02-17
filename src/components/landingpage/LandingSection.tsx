@@ -3,7 +3,7 @@ import Slider from "./Slider";
 import SocialIcons from "./SocialIcons";
 import AudioPlayer from "react-h5-audio-player";
 import "react-h5-audio-player/lib/styles.css";
-import Header from "../header/Header";
+import Header from "../Header/Header";
 
 const Player = () => (
   <div className="audio-player">
